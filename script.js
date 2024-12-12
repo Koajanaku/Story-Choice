@@ -1,13 +1,13 @@
 let left =  document.querySelector('.left');
 let leftRight =  document.querySelector('.leftRight');
-let leftRightend =  document.querySelector('.leftRight');
-let leftLeft =  document.querySelector('.leftRight');
+let leftRightend =  document.querySelector('.leftRightEnd');
+let leftLeft =  document.querySelector('.leftLeft');
 let leftLeftEnd =  document.querySelector('.leftLeftEnd');
 
 let right =  document.querySelector('.right');
 let rightRight =  document.querySelector('.rightRight');
-let rightRightEnd =  document.querySelector('.leftRight');
-let rightLeft =  document.querySelector('.leftRight');
+let rightRightEnd =  document.querySelector('.rightRightEnd');
+let rightLeft =  document.querySelector('.rightLeft');
 let rightLeftEnd =  document.querySelector('.rightLeftEnd');
 
 let text =  document.querySelector('p');
