@@ -58,9 +58,16 @@ rightLeft.addEventListener('click', function(){
     text.innerHTML = "welp you got beat and smacked up they took all your money and now your nothing but ashamed its sad but you lose";
     });
 
-    leftLeft.addEventListener('dblclick', function(){
-        leftLeft.style.display = 'none';
-        leftRight.style.display = 'none';
-        leftLeftEnd.style.display = 'block';
-        text.innerHTML = "you did a good deed he was a crack head and could of hurt you, but you made it home safe and won"
-        });
+leftLeft.addEventListener('dblclick', function(){
+    leftLeft.style.display = 'none';
+    leftRight.style.display = 'none';
+    leftLeftEnd.style.display = 'block';
+    text.innerHTML = "you did a good deed he was a crack head and could of hurt you, but you made it home safe and won";
+    });
+
+leftRight.addEventListener('dblclick', function(){
+    leftLeft.style.display = 'none';
+    leftRight.style.display = 'none';
+    leftRightEnd.style.display = 'block';
+    text.innerHTML = "uh oh he got mad he wants money for his crack it seems ge has a toolie, you died and lost";
+    });
